@@ -20,6 +20,8 @@
     "@angular/platform-browser": "~9.1.6",
     "@angular/platform-browser-dynamic": "~9.1.6",
     "@angular/router": "~9.1.6",
+    "@fullcalendar/angular": "^5.1.0",
+    "@fullcalendar/daygrid": "^5.1.0",
     "express": "^4.17.1",
     "rxjs": "~6.5.4",
     "semantic-ui-css": "^2.4.1",

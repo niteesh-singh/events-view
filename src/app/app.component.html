@@ -1,10 +1,11 @@
 <div class="ui container">
+  <h3>Please check the events below.</h3>
   <div style="margin-top: 20px;" class="ui cards showList" *ngFor="let item of data.events">
     <div class="card">
       <div class="content">
-        <div class="header">{{item.name}}</div>
+        <div class="header">{{item.name}} <i class="location arrow icon"></i></div>
         <div class="description">
-          {{item.start}}
+          {{item.start}} <i class="calendar alternate icon"></i>
         </div>
         <div class="description">
           {{item.end}}
@@ -12,4 +13,5 @@
       </div>
     </div>
   </div>
+  <full-calendar [options]="calendarOptions"></full-calendar>
 </div>
